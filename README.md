@@ -49,9 +49,21 @@ A aplicação devia fornecer:
 
   
 ## Rodar projeto
+#### Iniciar ambiente virtual
+```bash
+python -m venv .venv 
+pip install -r requirements.txt 
+```
 
-```bash 
+#### Rodar projeto
+```bash
 cd blog
 python manage.py runserver
+```
+
+### Acessar
+```html
+http://127.0.0.1:8000/authors/
+http://127.0.0.1:8000/publications/
 ```
     
